@@ -2,6 +2,8 @@
 
 goji-staticbin is a middleware for [Goji](https://github.com/zenazn/goji) that serves static files from a [go-bindata](https://github.com/jteeuwen/go-bindata) generated asset file.
 
+[![GoDoc](https://godoc.org/github.com/hypebeast/gojistaticbin?status.svg)](https://godoc.org/github.com/hypebeast/gojistaticbin)
+
 
 ## Installation
 
