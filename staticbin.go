@@ -9,7 +9,8 @@ import (
 )
 
 // Staticbin returns a middleware handler that serves static files in the given dir
-// with the help of the asset function from go-bindata (https://github.com/jteeuwen/go-bindata).
+// with the help of the asset function from go-bindata (https://github.com/jteeuwen/go-bindata)
+// generated file.
 func Staticbin(dir string, asset func(string) ([]byte, error), options ...Options) func(http.Handler) http.Handler {
 	opts := prepareOptions(options)
 	modtime := time.Now()
